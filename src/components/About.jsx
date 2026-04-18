@@ -6,9 +6,9 @@ import masssLogo from "../assets/images/masss-logo.jpg";
 
 function About() {
   return (
-    <section id="about" class="section fade-in">
+    <section id="about" className="section fade-in">
       <h2>About Me</h2>
-      <p class="content-text">
+      <p className="content-text">
         I’m Sujan Kumar Roy, a BCA student who builds practical web applications
         focused on solving real-world problems.
       </p>
@@ -21,45 +21,50 @@ function About() {
 
       <h3>Education</h3>
       <div className="timeline">
-        <div class="timeline-item">
-          <img src={lpuLogo} alt="LPU Logo" class="edu-logo" loading="lazy" />
-          <div class="edu-text">
+        <div className="timeline-item">
+          <img
+            src={lpuLogo}
+            alt="LPU Logo"
+            className="edu-logo"
+            loading="lazy"
+          />
+          <div className="edu-text">
             <h3>Lovely Professional University</h3>
             <p>Bachelor of Computer Application (BCA)</p>
           </div>
         </div>
-        <div class="timeline-item">
+        <div className="timeline-item">
           <img
             src={gcuLogo}
             alt="Gurucharan University Logo"
-            class="edu-logo"
+            className="edu-logo"
             loading="lazy"
           />
-          <div class="edu-text">
+          <div className="edu-text">
             <h3>Gurucharan University</h3>
             <p>B.Sc Mathematics</p>
           </div>
         </div>
-        <div class="timeline-item">
+        <div className="timeline-item">
           <img
             src={masssLogo}
             alt="M.A. Junior College Logo"
-            class="edu-logo"
+            className="edu-logo"
             loading="lazy"
           />
-          <div class="edu-text">
+          <div className="edu-text">
             <h3>M.A. Senior Secondary School</h3>
             <p>Class XI–XII (PCM)</p>
           </div>
         </div>
-        <div class="timeline-item">
+        <div className="timeline-item">
           <img
             src={abctaLogo}
             alt="A.B.C Talent Academy Logo"
-            class="edu-logo"
+            className="edu-logo"
             loading="lazy"
           />
-          <div class="edu-text">
+          <div className="edu-text">
             <h3>A.B.C Talent Academy</h3>
             <p>Class II–X</p>
           </div>

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-dark: #0f0f0f;
+  --bg-light: #1c1c1c;
+  --accent: #4df2c9;
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  
+  /* Project Mockup Variables */
+  --prj-card-bg: rgba(255, 255, 255, 0.05);
+  --prj-border: rgba(255, 255, 255, 0.1);
+  --desktop-width: 1280px;
+  --desktop-height: 800px;
+}
+
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, var(--bg-dark), var(--bg-light));
+  color: #ffffff;
+  line-height: 1.6;
+}
