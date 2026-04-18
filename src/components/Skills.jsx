@@ -43,6 +43,11 @@ const Skills = () => {
         </div>
 
         <div className="skill-card">
+          <i className="devicon-react-plain colored"></i>
+          <span>React</span>
+        </div>
+
+        <div className="skill-card">
           <i className="devicon-mysql-plain colored"></i>
           <span>SQL</span>
         </div>
