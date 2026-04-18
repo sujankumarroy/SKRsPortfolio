@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className={footerStyle}>
+    <footer style={footerStyle}>
       <p>© 2026 Sujan Kumar Roy</p>
     </footer>
   );
