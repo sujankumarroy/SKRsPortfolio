@@ -1,3 +1,6 @@
+import netlifyImg from "../assets/icons/netlify.png";
+import renderImg from "../assets/icons/render.png";
+
 import "devicon/devicon.min.css";
 import "../styles/Skills.css";
 
@@ -70,12 +73,12 @@ const Skills = () => {
 
         {/* <!-- Fallback (no devicon available) --> */}
         <div className="skill-card">
-          <img src="assets/icons/netlify.png" alt="Netlify" />
+          <img src={netlifyImg} alt="Netlify" />
           <span>Netlify</span>
         </div>
 
         <div className="skill-card">
-          <img src="assets/icons/render.png" alt="Render" />
+          <img src={renderImg} alt="Render" />
           <span>Render</span>
         </div>
       </div>
