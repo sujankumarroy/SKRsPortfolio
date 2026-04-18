@@ -1,0 +1,31 @@
+
+#home {
+  text-align: center;
+  padding: 120px 20px 70px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--accent);
+  box-shadow: 0 0 25px rgba(77, 242, 201, 0.5);
+  margin-bottom: 18px;
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#home p {
+  opacity: 0.85;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
